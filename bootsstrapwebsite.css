@@ -1,0 +1,62 @@
+.div1{
+    background-image: url(sky.jpg);
+    /* background-color: blue; */
+    height: 900px;
+    width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+ font-size: larger;
+}
+.div2{
+    background-image: url(ipad.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+.div2 h2{
+    font-size: 40px!important;
+}
+.div2 h3{
+    font-size: 20px;
+}
+.div3 .bg{
+    background-image: url(mount.jpg);
+    height: 500px;
+    width: 70%;
+    background-color: aliceblue;
+
+    margin-left: 100px;
+}
+.div3 .text{
+    margin-top: 100px;
+}
+
+.botts{
+    height:700px;
+    width: auto;
+}
+.first{
+    height: 350px;
+}
+.ww{
+    color: aliceblue;
+    margin-top: 130px;
+}
+.hi{
+    color: rgba(240, 248, 255, 0.582);
+}
+.ff{
+    color: aliceblue;
+    margin-top:130px ;
+}
+.cc{
+    color: rgb(138, 142, 145);
+}
+
+.pic{
+    height: 800px;
+}
+
