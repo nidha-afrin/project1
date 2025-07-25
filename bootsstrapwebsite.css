@@ -1,6 +1,9 @@
 .div1{
-    background-image: url(sky.jpg);
-    /* background-color: blue; */
+   background-image: linear-gradient(
+    rgba(0, 0, 0, 0.284),
+    rgba(0, 0, 0, 0.967)
+   ),
+   url(sky.jpg);
     height: 900px;
     width: 100%;
  background-repeat: no-repeat;
@@ -8,13 +11,45 @@
  text-align: center;
  font-size: larger;
 }
+.head{
+color: white;
+letter-spacing: 7px;
+font-size:120px;
+}
+.sub{
+    font-weight:300 ;
+    font-size:xx-large;
+}
+.free{
+    height: 300px;
+    background:linear-gradient(rgb(0, 0, 0),black);
+}
+.dcc{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgba(240, 248, 255, 0.44);
+}
+.dc{
+    font-size: medium;
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.433);
+}
+.pg{
+    color: rgba(22, 187, 232, 0.759);
+    text-decoration: underline;
+}
 .div2{
-    background-image: url(ipad.png);
-    height: 600px;
+     background-image: linear-gradient(
+    rgba(0, 0, 0, 0.284),
+    rgba(0, 0, 0, 0.375)
+   ),
+   url(ipad.png);
+    height:465px;
     width: 100%;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
     background-color: black;
-
+    background-position:center;
 }
 .div2 h2{
     font-size: 40px!important;
@@ -28,14 +63,51 @@
     width: 70%;
     background-color: aliceblue;
 
-    margin-left: 100px;
+    
+}
+@media screen and (min-width:200px) and (max-width:576px){
+    .div3 .bg{
+    background-image: url(mount.jpg);
+    height: 200px;
+    width: 70%;
+    background-color: aliceblue;
+    background-position:center ;
+    margin-top:40px;
+
+   
+}
+.bb{
+    padding: 10px;
+    color: aliceblue;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+
+}
+.nn{
+    margin-left: 0px;
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color:#64a19d;
+    color: aliceblue;
+}
+.div5{
+    /* background-color: aliceblue; */
+    height: 220px;
+    padding:10px;
+    width: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 }
 .div3 .text{
     margin-top: 100px;
 }
 
 .botts{
-    height:700px;
+    height:auto;
     width: auto;
 }
 .first{
@@ -57,6 +129,38 @@
 }
 
 .pic{
-    height: 800px;
+    height: 100%;
+}
+.bb{
+    padding: 20px;
+    color: aliceblue;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+
+}
+.nn{
+    margin-left: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    background-color:#64a19d;
+    color: aliceblue;
+}
+.div5{
+     
+    margin-top: 50px;
+    border-radius: 5px;
+   
 }
 
+.five{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+ 
